@@ -1,0 +1,111 @@
+@font-face {
+  src: url(./CursedTimerUlil-Aznm.ttf);
+  font-family: "Cursed Timer";
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+}
+
+.container {
+  background: #252627;
+  height: 385px;
+  width: 575px;
+  box-shadow: 25px 25px 25px #79797b;
+  border-radius: 15px;
+}
+
+.score-inner {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  color: #bb0a21;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: "Cursed Timer";
+}
+
+#score-home,
+#score-guest {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  height: 120px;
+  width: 155px;
+  font-size: 90px;
+  background: #252627;
+  box-shadow: 4px 5px 10px 0px #bb0a21;
+}
+
+#score-title-home,
+#score-title-guest {
+  color: #fff9fb;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sum-btn-home {
+  margin-top: 30px;
+  height: 32px;
+  width: 40px;
+  margin-right: 8px;
+  background: #252627;
+  border-color: #fff9fb;
+  color: #fff9fb;
+  font-style: bold;
+  border-radius: 4px;
+  font-family: "Cursed Timer";
+  box-shadow: 4px 5px 10px 0px #bb0a21;
+}
+
+.sum-btn-home:hover {
+  background-color: #bb0a21;
+}
+
+.sum-btn-guest {
+  margin-top: 10px;
+  height: 32px;
+  width: 40px;
+  margin-left: 8px;
+  background: #252627;
+  border-color: #fff9fb;
+  color: #fff9fb;
+  font-style: bold;
+  border-radius: 4px;
+  font-family: "Cursed Timer";
+  box-shadow: 4px 5px 10px 0px #bb0a21;
+}
+
+.sum-btn-guest:hover {
+  background-color: #bb0a21;
+}
+
+#new-game-btn {
+  padding: 6px;
+  border-color: #fff9fb;
+  background: #252627;
+  color: #fff9fb;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 4px 5px 10px 0px #bb0a21;
+}
+
+#new-game-btn:hover {
+  background-color: #bb0a21;
+}

@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="icon" type="image/xicon" href="./image/cesta-de-basquete.png" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Happy+Monkey&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="score-inner">
+        <div class="score-container">
+          <h3 id="score-title-home">HOME</h3>
+          <div id="score-home">0</div>
+        </div>
+
+        <div class="score-container">
+          <h3 id="score-title-guest">GUEST</h3>
+          <div id="score-guest">0</div>
+        </div>
+      </div>
+
+      <section>
+        <button class="sum-btn-home" onclick="addOneHome()">+1</button>
+        <button class="sum-btn-home" onclick="addTwoHome()">+2</button>
+        <button class="sum-btn-home" onclick="addThreeHome()">+3</button>
+        <button id="new-game-btn" onclick="reset()">New Game</button>
+        <button class="sum-btn-guest" onclick="addThreeGuest()">+3</button>
+        <button class="sum-btn-guest" onclick="addTwoGuest()">+2</button>
+        <button class="sum-btn-guest" onclick="addOneGuest()">+1</button>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
