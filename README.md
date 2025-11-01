@@ -1,8 +1,6 @@
 # 🏀 Basketball Scoreboard – Scrimba Solo Project
 
-[![Scoreboard Preview]([<img width="1930" alt="Basketball Scoreboard Preview" src="https://private-user-images.githubusercontent.com/173506724/508595546-50527756-5463-4a11-b1f3-9c5952c1e392.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjIwMjc1NDcsIm5iZiI6MTc2MjAyNzI0NywicGF0aCI6Ii8xNzM1MDY3MjQvNTA4NTk1NTQ2LTUwNTI3NzU2LTU0NjMtNGExMS1iMWYzLTljNTk1MmMxZTM5Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEwMVQyMDAwNDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMmIyMWU3ODllZWE3ZDRjN2M0OThjMWM3MDFhM2Y5ODEyYWUyOGNiNmQ4MDBkYjY4OTllOTNkYzc0ZjY4MWNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Bx8AP6avjTqKFv0OD9tHfFHVYpZatTfkD1GQgsyfFfU" />](https://basketball-scoreboard-pure.netlify.app))
-
-[<img width="1930" height="1296" alt="image" src="https://github.com/user-attachments/assets/5ba6dfb1-149a-478c-9201-5d084b1fca09" />](https://github.com/alex-atip/basketball-scoreboard/issues/1#issue-3578381453)
+<img width="1440" height="778" alt="Image" src="https://github.com/user-attachments/assets/50527756-5463-4a11-b1f3-9c5952c1e392" />
 
 
 ## 🌐 Live Demo
