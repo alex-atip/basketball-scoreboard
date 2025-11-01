@@ -1,4 +1,7 @@
-# 🏀 Basketball Scoreboard – Scrimba Solo Project 🇧🇷
+# 🏀 Basketball Scoreboard – Scrimba Solo Project
+
+[![Scoreboard Preview](https://github.com/alex-atip/basketball-scoreboard/issues/1#issue-3578381453)
+
 
 ## 🌐 Live Demo
 
@@ -9,35 +12,37 @@
 ## 🏙️ About the Project
 
 This project was created as part of the **Scrimba FullStack Career Path**.  
-It’s a simple **basketball scoreboard** built from scratch, following the original **Figma design** provided in the course.
+It’s a simple **basketball scoreboard** built from scratch, following the original **Figma design** from the course.
 
-The goal was to practice **DOM manipulation**, **state updates**, and **event handling** in JavaScript while also focusing on layout accuracy, component spacing, and visual clarity.
+I reproduced the layout and wired seven buttons:
+- **+1 / +2 / +3 (Home)**
+- **+1 / +2 / +3 (Guest)**
+- **New Game** (resets both scores to zero)
 
-The scoreboard displays points for **Home** and **Guest** teams, and each team has three buttons to increase the score by **+1**, **+2**, or **+3** points.
+Design details include a dark panel, **7-segment-style** numbers using a custom font, and subtle shadows to mirror the Figma aesthetic.
 
 ---
 
 ## 💡 What I Learned
 
-* Updating the DOM using JavaScript
-* Managing UI state using variables
-* Adding **event listeners** to multiple buttons
-* Displaying and updating numeric values in real time
-* Practicing **pixel-perfect UI reproduction** from a Figma design
-* Working with **Flexbox** for layout and alignment
-* Deploying projects to **Netlify**
+* Selecting elements with `getElementById` and updating text via **`.textContent`**
+* Using simple **state variables** (`sumHome`, `sumGuest`) to track scores
+* Creating small **functions** for button actions (`addOneHome`, `addTwoGuest`, etc.)
+* Implementing a **reset** flow that clears both scores
+* Basic **layout with Flexbox** (central alignment, spacing, and grouping)
+* Loading a **custom font** with `@font-face` (**Cursed Timer**) and combining it with **Google Fonts** for headings
+* Applying **box-shadow**, hover states, and consistent spacing to match the design
 
 ---
 
 ## 🧠 Why I Built This
 
-I am reinforcing my **core frontend fundamentals** — focusing first on **HTML, CSS, and JavaScript** before moving deeper into more advanced stacks like **TypeScript, React, and backend development**.
+I’m reinforcing my **frontend fundamentals** — focusing on **HTML, CSS, and vanilla JavaScript**.  
+This project helped me practice direct **DOM updates**, small function design, and keeping the UI clean and readable while following a Figma file closely.
 
-This simple but practical project helped strengthen my understanding of how JavaScript interacts with the UI in real time and how to structure small interactive components.
+If you’d like to **give feedback or a quick code review**, I’d love to hear it. 🙌
 
-If you'd like to **give feedback or a code review**, I’d love to hear from you! 🙌
-
-> *\"Strong fundamentals build strong developers — one project at a time.\"*
+> *"Strong fundamentals first — one small, focused project at a time."*
 
 ---
 
@@ -45,37 +50,45 @@ If you'd like to **give feedback or a code review**, I’d love to hear from you
 
 To run this project locally:
 
-- Clone the repository  
-- Open `index.html` in your browser  
-OR use a live server extension (VS Code, Vite, etc.)
+1. Clone the repository  
+2. Open `index.html` in your browser  
+   *(Alternatively, use a Live Server extension in VS Code.)*
 
 ---
 
 ## 🧩 Tech Stack
 
 * **HTML5**
-* **CSS3 (Flexbox)**
-* **JavaScript (ES6)**
+* **CSS3 (Flexbox, @font-face)**
+* **JavaScript (DOM + functions)**
 * **Netlify** (for deployment)
 
 ---
 
 ## 🏫 About Scrimba
 
-At **Scrimba**, the mission is to make the world’s best programming school at the cost of a gym membership. 💜
+At **Scrimba**, our goal is to create the best possible coding school at the cost of a gym membership! 💜
 
-The **Frontend / Fullstack Career Path** provides real-world, hands-on projects like this one to help students develop practical skills and confidence as developers. 🚀
+If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding — regardless of where they live or how much they can afford. 🎉
+
+The **Frontend Career Path** aims to teach you everything you need to become a Junior Developer, or you can take a deep dive with one of our advanced courses. 🚀
 
 * [Our Courses](https://scrimba.com/courses)
-* [The Fullstack Career Path](https://scrimba.com/fullstack-path-c0fullstack)
+* [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
 * [Become a Scrimba Pro Member](https://scrimba.com/pricing)
 
 ---
 
 ## 💬 Feedback
 
-If you feel like it, I’d really appreciate a **code review** or suggestions for improvement.  
-Every bit of feedback helps me grow as a developer. 🌱
+If you feel like it, I’d really appreciate a **code review** or any **tips for improvement**!  
+Feedbacks are welcome and help me grow as a developer. 🌱
+
+---
+
+## 💜 Happy Coding!
+
+Built with focus and curiosity — step by step, one project at a time.
 
 ---
 
@@ -84,11 +97,5 @@ Every bit of feedback helps me grow as a developer. 🌱
 **Alexandre Oliveira de Souza**  
 Aspiring Fullstack Developer | Learning in public ✨
 
-* GitHub: https://github.com/alex-atip  
-* LinkedIn: https://www.linkedin.com/in/alexandre-yukon/
-
----
-
-## 💜 Happy Coding!
-
-Built with discipline and curiosity — project by project, leveling up every day.
+* [GitHub](https://github.com/alex-atip)
+* [LinkedIn](https://www.linkedin.com/in/alexandre-yukon/)
