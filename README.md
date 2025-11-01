@@ -2,6 +2,8 @@
 
 [![Scoreboard Preview](https://github.com/alex-atip/basketball-scoreboard/issues/1#issue-3578381453)
 
+[<img width="1930" height="1296" alt="image" src="https://github.com/user-attachments/assets/5ba6dfb1-149a-478c-9201-5d084b1fca09" />](https://github.com/alex-atip/basketball-scoreboard/issues/1#issue-3578381453)
+
 
 ## 🌐 Live Demo
 
